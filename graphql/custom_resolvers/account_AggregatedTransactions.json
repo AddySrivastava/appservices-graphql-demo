@@ -1,0 +1,7 @@
+{
+    "on_type": "Account",
+    "field_name": "AggregatedTransactions",
+    "function_name": "aggregatedTransactions",
+    "input_type_format": "generated",
+    "input_type": "AccountQueryInput"
+}
