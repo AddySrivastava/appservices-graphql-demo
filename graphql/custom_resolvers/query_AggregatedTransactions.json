@@ -2,9 +2,7 @@
     "on_type": "Query",
     "field_name": "AggregatedTransactions",
     "function_name": "aggregatedTransactions",
-    "input_type_format": "generated",
     "payload_type_format": "custom",
-    "input_type": "AccountQueryInput",
     "payload_type": {
         "items": {
             "bsonType": "object",
