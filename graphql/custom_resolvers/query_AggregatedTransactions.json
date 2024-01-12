@@ -7,13 +7,15 @@
     "input_type": "AccountQueryInput",
     "payload_type": {
         "items": {
-            "_id": {
-                "bsonType": "string"
-            },
-            "sum": {
-                "bsonType": "number"
-            },
-            "type": "object"
+            "bsonType": "object",
+            "properties": {
+                "_id": {
+                    "bsonType": "string"
+                },
+                "sum": {
+                    "bsonType": "int"
+                }
+            }
         },
         "title": "AggregatedResponsePayload",
         "type": "array"
