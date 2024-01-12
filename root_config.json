@@ -1,0 +1,5 @@
+{
+    "name": "Lumen_demo_lookup_Relationship",
+    "provider_region": "aws-eu-west-1",
+    "deployment_model": "LOCAL"
+}

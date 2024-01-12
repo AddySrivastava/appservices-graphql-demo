@@ -1,0 +1,8 @@
+{
+    "account_id": {
+        "ref": "#/relationship/mongodb-atlas/sample_analytics/accounts",
+        "source_key": "account_id",
+        "foreign_key": "account_id",
+        "is_list": false
+    }
+}
