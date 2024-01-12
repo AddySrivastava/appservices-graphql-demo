@@ -1,6 +1,7 @@
 [
     {
         "name": "aggregatedTransactions",
-        "private": false
+        "private": false,
+        "run_as_user_id": "65a064d0b1b78dc930069a12"
     }
 ]
