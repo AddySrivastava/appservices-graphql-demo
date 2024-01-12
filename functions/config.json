@@ -2,6 +2,6 @@
     {
         "name": "aggregatedTransactions",
         "private": false,
-        "run_as_system": true
+        "run_as_user_id_script_source": "exports = function(payload) {\n console.log(payload);\n};"
     }
 ]
