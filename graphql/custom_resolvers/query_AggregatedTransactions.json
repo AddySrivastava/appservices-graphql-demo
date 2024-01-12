@@ -6,15 +6,16 @@
     "payload_type_format": "custom",
     "input_type": "AccountQueryInput",
     "payload_type": {
-        "properties": {
+        "items": {
             "_id": {
                 "bsonType": "string"
             },
             "sum": {
                 "bsonType": "number"
-            }
+            },
+            "type": "object"
         },
         "title": "AggregatedResponsePayload",
-        "type": "object"
+        "type": "array"
     }
 }
