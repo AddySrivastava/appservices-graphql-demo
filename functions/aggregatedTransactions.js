@@ -46,7 +46,7 @@ exports = async () => {
             }
         }
     }
-]).next();
+])
 
 return totalTransactions;
   
