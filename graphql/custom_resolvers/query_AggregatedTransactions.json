@@ -3,5 +3,18 @@
     "field_name": "AggregatedTransactions",
     "function_name": "aggregatedTransactions",
     "input_type_format": "generated",
-    "input_type": "AccountQueryInput"
+    "payload_type_format": "custom",
+    "input_type": "AccountQueryInput",
+    "payload_type": {
+        "properties": {
+            "_id": {
+                "bsonType": "string"
+            },
+            "sum": {
+                "bsonType": "number"
+            }
+        },
+        "title": "AggregatedResponsePayload",
+        "type": "object"
+    }
 }
