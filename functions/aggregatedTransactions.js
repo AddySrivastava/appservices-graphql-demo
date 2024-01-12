@@ -46,7 +46,7 @@ exports = async () => {
             }
         }
     }
-])
+]).toArray();
 
 return totalTransactions;
   
