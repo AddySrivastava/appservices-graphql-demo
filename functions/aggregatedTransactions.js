@@ -1,7 +1,7 @@
 exports = async () => {
   const cluster = context.services.get("mongodb-atlas");
   const transactions = cluster.db("sample_analytics").collection("transactions");
-  console.log("coming from github webhook");
+  console.log("coming from github webhook + app UI");
   const totalTransactions = await transactions.aggregate([
     {
         '$unwind': {
